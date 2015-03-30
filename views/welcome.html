@@ -1,0 +1,30 @@
+<div class="frame">
+	
+        <h1 class="cl-effect-1 "><a href="" class="title">French Fry Club</a></h1>
+        <h2 class="sub-title">World Traveling, experienced Tutors</h2>
+		<div class="squares-wrapper">	
+        <a href="#tutor"><div id="tutor" class="squares"><span class="number">1</span><p>Find a Tutor</p></div></a>
+        <a href="#calendar"><div id="calendar" class="squares"><span class="number">2</span><p>Set up an appointment</p></div></a>
+        <a href="#about"><div id="about" class="squares"><span class="number">3</span><p>Speak French!</p></div></a>
+        <!-- <a href="#contact"><div id="contact" class="squares"><p>contact</p></div></a> -->
+		</div>
+
+        <!-- <h1 class="cl-effect-1"><a href="#welcome">{{10+90}}</a></h1>  -->
+
+<script type="text/javascript">
+		$(document).ready(function() {
+		setTimeout(function() {
+      // Do something after 5 seconds
+	$(".squares").each(function(index) {
+    $(this).delay(400*index).animate({opacity: 1}, 600);
+});
+}, 1000);
+
+
+
+	
+	})
+
+
+</script>
+</div>        
